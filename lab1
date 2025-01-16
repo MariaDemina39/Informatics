@@ -1,1 +1,8 @@
+#1
+import math
+x,y,z = map(int, input().split())
+f = (math.cos(math.sqrt(math.lgamma(x)))-2*y)/(math.sqrt((z**2+2*x*z)))
+print(f)
+
+#2
 
